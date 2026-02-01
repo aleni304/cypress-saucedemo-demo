@@ -2,15 +2,16 @@
   "name": "saucedemo-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:cypress:ci": "cypress run",
+    "test:cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "aleni304",
   "license": "",
   "packageManager": "pnpm@10.26.0",
   "devDependencies": {
-    "cypress": "15.9.0"
+    "cypress": "15.9.0",
+    "typescript": "5.9.3"
   }
 }
